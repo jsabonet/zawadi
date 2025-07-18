@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-24bz+)rcp=q)i7a-!_@26l_e-!ss07t$qxv(84e!rbld*!jgln
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['zawadi-1.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['zawadi-1.onrender.com', 'localhost', '127.0.0.1', 'wwww.zawdidigital.com']
 
 # Application definition
 
