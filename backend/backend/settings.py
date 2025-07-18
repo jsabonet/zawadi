@@ -115,7 +115,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'frontend_build', 'assets'),  # onde ficam os arquivos estáticos (css, js)
+    os.path.join(BASE_DIR, 'frontend_build', 'assets'), 
+    os.path.join(BASE_DIR, 'frontend_build'), 
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
