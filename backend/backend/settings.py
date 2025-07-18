@@ -14,6 +14,10 @@ SECRET_KEY = 'django-insecure-24bz+)rcp=q)i7a-!_@26l_e-!ss07t$qxv(84e!rbld*!jgln
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 ALLOWED_HOSTS = ['zawadidigital.com', 'www.zawadidigital.com', 'zawadi-1.onrender.com']
 
 # Application definition

@@ -13,7 +13,7 @@ urlpatterns = [
 
     # Essa rota serve a SPA React para todas as outras rotas
     path('', index, name='index'),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
 if settings.DEBUG:

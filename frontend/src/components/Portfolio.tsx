@@ -7,7 +7,7 @@ const Portfolio = () => {
       title: 'Clínica Saúde',
       category: 'Site + SEO',
       description: 'Site institucional responsivo com informações sobre serviços. Design moderno destacando atendimento de qualidade.',
-      image: 'src/img/clinica.png',
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1752878802/clinica_wrxqhy.png',
       features: ['Design responsivo',  'Informações de serviços', 'SEO', 'Entregue em 7 dias'],
       deliveryTime: '7 dias'
     },
@@ -15,7 +15,7 @@ const Portfolio = () => {
       title: 'GigaMoza Eletrônicos',
       category: 'E-commerce + Marketing',
       description: 'E-commerce completo com gestão de redes sociais e campanhas de tráfego pago que aumentaram as vendas em 250%.',
-      image: 'src/img/GigaMoza.png',
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1752879318/GigaMoza_lq4bq2.png',
       features: ['E-commerce completo', 'Gestão redes sociais', 'Campanhas Facebook Ads', 'ROI de 250%'],
       deliveryTime: '14 dias'
     },
@@ -23,7 +23,7 @@ const Portfolio = () => {
       title: 'Restaurante Sabores de Moz',
       category: 'Site + Redes Sociais',
       description: 'Site institucional com cardápio online e estratégia de redes sociais que triplicou o engajamento.',
-      image: 'src/img/resta.png',
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1752879272/resta_vvxkxj.png',
       features: ['Site institucional', 'Cardápio online', 'Estratégia redes sociais', '+300% engajamento'],
       deliveryTime: '10 dias'
     }

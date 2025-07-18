@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/static/',  // 👈 ESSENCIAL para funcionar com Django
+  // base: '/static/',
   server: {
     host: "::",
     port: 8080,
