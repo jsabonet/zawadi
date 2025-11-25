@@ -4,28 +4,40 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Clínica Saúde',
-      category: 'Site + SEO',
-      description: 'Site institucional responsivo com informações sobre serviços. Design moderno destacando atendimento de qualidade.',
-      image: 'src/img/clinica.png',
-      features: ['Design responsivo',  'Informações de serviços', 'SEO', 'Entregue em 7 dias'],
-      deliveryTime: '7 dias'
+      title: 'Moz Solidária',
+      category: 'Plataforma Social',
+      description: 'Plataforma web completa para doações e ações solidárias em Moçambique. Sistema de gestão de campanhas e transparência total.',
+      image: 'src/img/mozSolidaria.png',
+      link: 'https://mozsolidaria.org',
+      features: ['Plataforma completa', 'Gestão de campanhas', 'Sistema de doações', 'Dashboard administrativo'],
+      deliveryTime: '21 dias'
     },
     {
-      title: 'GigaMoza Eletrônicos',
-      category: 'E-commerce + Marketing',
-      description: 'E-commerce completo com gestão de redes sociais e campanhas de tráfego pago que aumentaram as vendas em 250%.',
-      image: 'src/img/GigaMoza.png',
-      features: ['E-commerce completo', 'Gestão redes sociais', 'Campanhas Facebook Ads', 'ROI de 250%'],
-      deliveryTime: '14 dias'
+      title: 'MutitiPay',
+      category: 'Fintech + Sistema',
+      description: 'Sistema de pagamentos digitais moderno e seguro. Integração com múltiplos métodos de pagamento para facilitar transações.',
+      image: 'src/img/mutitPay.png',
+      link: 'https://mutitpay.com',
+      features: ['Gateway de pagamento', 'Multi-moedas', 'Segurança avançada', 'API integrada'],
+      deliveryTime: '28 dias'
     },
     {
-      title: 'Restaurante Sabores de Moz',
-      category: 'Site + Redes Sociais',
-      description: 'Site institucional com cardápio online e estratégia de redes sociais que triplicou o engajamento.',
-      image: 'src/img/resta.png',
-      features: ['Site institucional', 'Cardápio online', 'Estratégia redes sociais', '+300% engajamento'],
-      deliveryTime: '10 dias'
+      title: 'LuraFarm',
+      category: 'Agronegócio + E-commerce',
+      description: 'Plataforma digital para agronegócio com e-commerce integrado. Conectando produtores e consumidores de forma eficiente.',
+      image: 'src/img/luraFarm.png',
+      link: 'https://lurafarm.com',
+      features: ['E-commerce agrícola', 'Gestão de produtos', 'Sistema de pedidos', 'Dashboard produtor'],
+      deliveryTime: '24 dias'
+    },
+    {
+      title: 'Chiva Computer',
+      category: 'E-commerce + Catálogo',
+      description: 'Loja online profissional para produtos de informática. Catálogo completo com sistema de gestão de inventário.',
+      image: 'src/img/chivaComputer.png',
+      link: 'https://chivacomputer.co.mz',
+      features: ['E-commerce completo', 'Gestão de inventário', 'Carrinho de compras', 'Sistema de pedidos'],
+      deliveryTime: '18 dias'
     }
   ];
 
@@ -85,14 +97,32 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group overflow-hidden">
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
-                  <Eye className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />
-                </div>
+                {project.link ? (
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+                      <div className="flex items-center gap-2 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <Eye size={32} />
+                        <ExternalLink size={24} />
+                      </div>
+                    </div>
+                  </a>
+                ) : (
+                  <>
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+                      <Eye className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />
+                    </div>
+                  </>
+                )}
                 <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {project.category}
                 </div>
