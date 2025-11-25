@@ -106,6 +106,7 @@ const Portfolio = () => {
                     <img
                       src={project.image}
                       alt={project.title}
+                      loading="lazy"
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
@@ -120,6 +121,7 @@ const Portfolio = () => {
                     <img
                       src={project.image}
                       alt={project.title}
+                      loading="lazy"
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
@@ -208,6 +210,7 @@ const Portfolio = () => {
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
+                        loading="lazy"
                         className="w-16 h-16 rounded-full object-cover flex-shrink-0"
                       />
                       <div className="min-w-0">
