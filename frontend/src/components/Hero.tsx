@@ -67,7 +67,7 @@ const Hero = () => {
 
           <div className="relative">
             <img
-              src="src/img/good-faces2.jpg"
+              src="https://res.cloudinary.com/dtdcefrf1/image/upload/v1752878600/good-faces2_pr7tjn.jpg"
               alt="Equipe de desenvolvimento digital trabalhando"
               className="w-full h-auto rounded-xl shadow-2xl"
             />
