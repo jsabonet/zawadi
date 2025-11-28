@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://zawadi-digital.vercel.app/</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Portfolio Projects -->
+  <url>
+    <loc>https://zawadi-digital.vercel.app/#portfolio</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324988/mozSolidaria_l1fzin.png</image:loc>
+      <image:title>MozSolidária - Plataforma Social</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324988/mutitPay_b2rnop.png</image:loc>
+      <image:title>MutitiPay - Sistema Fintech</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324946/luraFarm_sdwhyf.png</image:loc>
+      <image:title>LuraFarm - E-commerce Agronegócio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324762/chivaComputer_uzesrm.png</image:loc>
+      <image:title>Chiva Computer - E-commerce Informática</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://zawadi-digital.vercel.app/#services</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://zawadi-digital.vercel.app/#about</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://zawadi-digital.vercel.app/#contact</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

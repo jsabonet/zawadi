@@ -1,20 +1,19 @@
-
 import { ArrowRight, Smartphone, TrendingUp, Globe } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 lg:pt-24 pb-16 bg-gradient-to-br from-primary/5 to-accent/5">
+    <section id="home" className="pt-20 lg:pt-24 pb-16 bg-gradient-to-br from-primary/5 to-accent/5" itemScope itemType="https://schema.org/Service">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-montserrat leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-montserrat leading-tight" itemProp="name">
               Transforme seu Negócio com{' '}
               <span className="text-primary">Soluções Digitais</span>{' '}
               em Moçambique!
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 font-roboto">
-              Crie sites em 7 dias, atraia clientes com tráfego pago 
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 font-roboto" itemProp="description">
+              Agência digital especializada em desenvolvimento web, e-commerce e marketing digital. Sites profissionais em 7 dias
               <span className="font-semibold text-primary"> a partir de 5.000 MT</span>
             </p>
 
