@@ -1,9 +1,5 @@
 import { ExternalLink, Eye } from 'lucide-react';
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
-import mozSolidariaImg from '../img/mozSolidaria.png';
-import mutitPayImg from '../img/mutitPay.png';
-import luraFarmImg from '../img/luraFarm.png';
-import chivaComputerImg from '../img/chivaComputer.png';
 
 const Portfolio = () => {
   const projects = [
@@ -11,7 +7,7 @@ const Portfolio = () => {
       title: 'Moz Solidária',
       category: 'Plataforma Social',
       description: 'Plataforma web completa para doações e ações solidárias em Moçambique. Sistema de gestão de campanhas e transparência total.',
-      image: mozSolidariaImg,
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324988/mozSolidaria_l1fzin.png',
       link: 'https://mozsolidaria.org',
       features: ['Plataforma completa', 'Gestão de campanhas', 'Sistema de doações', 'Dashboard administrativo'],
       deliveryTime: '21 dias'
@@ -20,7 +16,7 @@ const Portfolio = () => {
       title: 'MutitiPay',
       category: 'Fintech + Sistema',
       description: 'Sistema de pagamentos digitais moderno e seguro. Integração com múltiplos métodos de pagamento para facilitar transações.',
-      image: mutitPayImg,
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324988/mutitPay_b2rnop.png',
       link: 'https://mutitpay.com',
       features: ['Gateway de pagamento', 'Multi-moedas', 'Segurança avançada', 'API integrada'],
       deliveryTime: '28 dias'
@@ -29,7 +25,7 @@ const Portfolio = () => {
       title: 'LuraFarm',
       category: 'Agronegócio + E-commerce',
       description: 'Plataforma digital para agronegócio com e-commerce integrado. Conectando produtores e consumidores de forma eficiente.',
-      image: luraFarmImg,
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324946/luraFarm_sdwhyf.png',
       link: 'https://lurafarm.com',
       features: ['E-commerce agrícola', 'Gestão de produtos', 'Sistema de pedidos', 'Dashboard produtor'],
       deliveryTime: '24 dias'
@@ -38,7 +34,7 @@ const Portfolio = () => {
       title: 'Chiva Computer',
       category: 'E-commerce + Catálogo',
       description: 'Loja online profissional para produtos de informática. Catálogo completo com sistema de gestão de inventário.',
-      image: chivaComputerImg,
+      image: 'https://res.cloudinary.com/dtdcefrf1/image/upload/v1764324762/chivaComputer_uzesrm.png',
       link: 'https://chivacomputer.co.mz',
       features: ['E-commerce completo', 'Gestão de inventário', 'Carrinho de compras', 'Sistema de pedidos'],
       deliveryTime: '18 dias'
